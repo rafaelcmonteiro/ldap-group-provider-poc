@@ -1,0 +1,23 @@
+{
+    "catalogs": [
+      {
+        "catalog": "system",
+        "allow": "none"
+      },
+      {
+        "group": "company",
+        "catalog": "jmx",
+        "allow": "all"
+      },
+      {
+        "group": "grupo",
+        "catalog": "tpcds",
+        "allow": "all"
+      },
+      {
+        "catalog": "tpch",
+        "allow": "all"
+      }
+
+    ]
+}
