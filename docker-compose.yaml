@@ -2,7 +2,7 @@ version: "3.7"
 services:
   trino:
       build: .
-      image: trino-rafael:1
+      image: trino-plugin-image:1.0.0
       hostname: my-localhost-trino
       user: root
       container_name: my-localhost-trino
